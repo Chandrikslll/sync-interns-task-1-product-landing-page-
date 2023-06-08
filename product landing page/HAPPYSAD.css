@@ -1,0 +1,122 @@
+Sbody{
+    font-family: "Nunito",sans-serif;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  li{
+    list-style: none;
+  }
+  
+  .navbar{
+    width:90%;
+    margin: auto;
+  }
+  
+  .nav-container{
+    padding: 2rem 0;
+  }
+  
+  .nav-container h2{
+    color:rgb(29, 29, 29);
+  }
+  
+  .nav-container .nav{
+    justify-self: flex-end;
+  }
+  
+  .nav-container .nav {
+    display: flex;
+  }
+  
+  .nav-container .nav a{
+    margin: 0 20px;
+    color: black;
+  }
+  
+  .nav-container .nav .active{
+    background: #0c0c0c;
+    color: rgb(198, 188, 185);
+    padding: 10px 20px;
+    border-radius: 30px;
+  }
+  
+  .header{
+    width: 80%;
+    margin: 70px auto;
+  }
+  
+  .container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  
+  .container img{
+    width: 100%;
+  }
+  
+  .container div h3{
+    font-size: 70px;
+  }
+  
+  .container div h3::after{
+    content: "";
+    position: absolute;
+    background: rgb(2, 15, 21);
+    height: 3px;
+    width: 130px;
+    top: 51%;
+    left: 15%;
+  }
+  
+  .container div p{
+    margin: 20px 0;
+  }
+  
+  .container div a{
+    padding: 15px;
+    background: #333;
+    margin: 20px 0;
+    display: inline-block;
+    color: #fff;
+    border-radius: 10px;
+  }
+  
+  .cakes2{
+    position: absolute;
+    top: -10%;
+    left: 5%;
+    opacity: .1;
+    z-index: -1;
+  }
+  
+  /* Footer */
+  footer{
+    margin: 1spx 0 0 0;
+    background: #333;
+    padding: 10px 20px;
+  }
+  
+  footer .main-container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding: 5px 5px;
+  
+  }
+  
+  .main-container div h4{
+    color: rgb(193, 190, 187);
+    font-size: 25px;
+    margin: 1px 0;
+  }
+  
+  .main-container div li{
+    cursor: pointer;
+    margin: 0px 0;
+    color: #e7e7e7;
+  }
+  
+ 
+  
